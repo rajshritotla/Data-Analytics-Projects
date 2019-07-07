@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0070)http://127.0.0.1:25588/custom/googleVis/BubbleChartID123c15d34716.html -->
+<html xmlns="https://www.w3.org/1999/xhtml" class="gr__127_0_0_1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>BubbleChartID123c15d34716</title>
+
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+<style type="text/css">.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  user-select: none;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    animation: sxt-play-anim-hover 0.91s steps(21);
+    animation-fill-mode: forwards;
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; }
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saving_loop.png") left center;
+    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/saved.png") left center;
+    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+</style><script type="text/javascript" src="./BubbleChartID123c15d34716_files/saved_resource"></script><style>				.askemmy {					background: #fff url(chrome-extension://gllmlkidgbagkcikijiljllpdloelocn/logo_housefly_new.png) no-repeat right 5px bottom 5px;					background-size: 45px;				}				.askemmy {				    z-index: 10000;				    position: fixed;				    display: block;				    width: 350px;				    height: 145px;				    background-color: white;				    border-radius: 2px;				    box-shadow: rgb(133, 133, 133) 0px 0px 25px 1px;				    margin: 0 auto;				    text-align: center;				    margin-left: 35%;				    margin-top: 10%;				}				.askemmy p#msg {				    font-size: 1.1em;				    font-weight: 600;				    margin-top: 31px;				    margin-bottom: 20px;				}				.askemmy .error-msg {					color: #FF5600;					padding-top: 10px;				}				.askemmy .success-msg {					color: green;					padding-top: 10px;				}				.askemmy input {				    padding: .5em .6em;				    display: inline-block;				    border: 1px solid #ccc;				    box-shadow: inset 0 1px 3px #ddd;				    border-radius: 4px;				    vertical-align: middle;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    line-height: normal;				    -webkit-appearance: textfield;				    cursor: auto;				 }				 .askemmy input[type="submit"] {				    font-family: inherit;				    font-size: 100%;				    padding: .5em 1em;				    color: white;				    font-weight: 600;				    border: 1px solid #999;				    border: 0 rgba(0,0,0,0);				    background-color: rgba(31, 196, 255, .8);				    text-decoration: none;				    border-radius: 2px;				    display: inline-block;				    zoom: 1;				    line-height: normal;				    white-space: nowrap;				    vertical-align: middle;				    text-align: center;				    cursor: pointer;				    -webkit-user-drag: none;				    -webkit-user-select: none;				    user-select: none;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				 }				.askemmy .closebox {				    display: inline-block;				    height: 16px;				    width: 16px;				    position: absolute;				    right: 4px;				    top: 4px;				    cursor: pointer;				    background: url(chrome-extension://gllmlkidgbagkcikijiljllpdloelocn/close_box.png)				}				.pop-up-report {					background: #fff url(chrome-extension://gllmlkidgbagkcikijiljllpdloelocn/logo_housefly_new.png) no-repeat right 5px bottom 5px;					background-size: 45px;				}				.pop-up-report {				    z-index: 10000;				    position: fixed;				    display: block;				    width: 400px;				    height: 200px;				    background-color: white;				    border-radius: 2px;				    box-shadow: rgb(133, 133, 133) 0px 0px 25px 1px;				    margin: 0 auto;				    text-align: left;				    margin-left: 35%;				    margin-top: 10%;				    padding-left:10px;				    padding-bottom:10px;				    padding-top:10px;				    font-family: Arial,sans-serif;				    font-size:13px;				}				.pop-up-report textarea {					width:380px;					height:75px;				    padding: .5em .6em;				    display: inline-block;				    border: 1px solid #ccc;				    box-shadow: inset 0 1px 3px #ddd;				    border-radius: 4px;				    vertical-align: middle;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    line-height: normal;				    -webkit-appearance: textarea;				    cursor: auto;				 }				 .pop-up-report input[type="button"] {				    font-family: Arial,sans-serif;				    font-size: 100%;				    padding: .5em 1em;				    color: white;				    font-weight: 600;				    border: 1px solid #999;				    border: 0 rgba(0,0,0,0);				    background-color: rgba(31, 196, 255, .8);				    text-decoration: none;				    border-radius: 2px;				    display: inline-block;				    zoom: 1;				    line-height: normal;				    white-space: nowrap;				    vertical-align: middle;				    text-align: center;				    cursor: pointer;				    -webkit-user-drag: none;				    -webkit-user-select: none;				    user-select: none;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    margin-top:5px;				 }				 .pop-up-report select {				 	background-color:rgb(221,221,221);				 	border: 1px solid #DDD;    				border-radius: 4px 4px 4px 4px;    				height:25px;    				width:380px;    				padding: 3px;				 }				 .pop-up-report select {				 	align: center;				 	text-align: center;				 } 				.alert_message_mc {					background: #fff url(chrome-extension://gllmlkidgbagkcikijiljllpdloelocn/logo_housefly_new.png) no-repeat right 5px bottom 5px;					background-size: 45px;				}				.alert_message_mc {				    z-index: 10000;				    position: fixed;				    display: block;				    width: 350px;				    height: 145px;				    background-color: white;				    border-radius: 2px;				    box-shadow: rgb(133, 133, 133) 0px 0px 25px 1px;				    margin: 0 auto;				    text-align: center;				    margin-left: 35%;				    margin-top: 10%;				}				.alert_message_mc p#msg {				    padding-top:60px;				}				.alert_message_mc p{				     margin: auto;				}				.alert_message_mc .error-msg {					color: #FF5600;					padding-top: 10px;				}				.alert_message_mc .success-msg {					color: green;					padding-top: 10px;				}				.alert_message_mc input {				    padding: .5em .6em;				    display: inline-block;				    border: 1px solid #ccc;				    box-shadow: inset 0 1px 3px #ddd;				    border-radius: 4px;				    vertical-align: middle;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    line-height: normal;				    -webkit-appearance: textfield;				    cursor: auto;				 }				 .alert_message_mc input[type="submit"] {				    font-family: inherit;				    font-size: 100%;				    padding: .5em 1em;				    color: white;				    font-weight: 600;				    border: 1px solid #999;				    border: 0 rgba(0,0,0,0);				    background-color: rgba(31, 196, 255, .8);				    text-decoration: none;				    border-radius: 2px;				    display: inline-block;				    zoom: 1;				    line-height: normal;				    white-space: nowrap;				    vertical-align: middle;				    text-align: center;				    cursor: pointer;				    -webkit-user-drag: none;				    -webkit-user-select: none;				    user-select: none;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				 }				.alert_message_mc .closebox {				    display: inline-block;				    height: 16px;				    width: 16px;				    position: absolute;				    right: 4px;				    top: 4px;				    cursor: pointer;				    background: url(chrome-extension://gllmlkidgbagkcikijiljllpdloelocn/close_box.png)				}				</style><link type="text/css" href="./BubbleChartID123c15d34716_files/ui+en.css" rel="stylesheet"><script type="text/javascript" src="./BubbleChartID123c15d34716_files/format+en,default+en,ui+en,corechart+en.I.js.download"></script><link href="./BubbleChartID123c15d34716_files/tooltip.css" rel="stylesheet" type="text/css"></head>
+<body data-gr-c-s-loaded="true" style="">
+ <!-- BubbleChart generated in R 3.5.1 by googleVis 0.6.3 package -->
+<!-- Tue May 07 02:08:35 2019 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataBubbleChartID123c15d34716 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"journal",
+1,
+13,
+"journal",
+13
+],
+[
+"trump",
+1,
+12,
+"trump",
+12
+],
+[
+"china",
+1,
+11,
+"china",
+11
+],
+[
+"file",
+2,
+15,
+"file",
+15
+],
+[
+"getty",
+2,
+12,
+"getty",
+12
+],
+[
+"health",
+2,
+11,
+"health",
+11
+],
+[
+"usa",
+3,
+9,
+"usa",
+9
+],
+[
+"opinion",
+3,
+8,
+"opinion",
+8
+],
+[
+"met",
+3,
+7,
+"met",
+7
+],
+[
+"ago",
+4,
+21,
+"ago",
+21
+],
+[
+"world",
+4,
+16,
+"world",
+16
+],
+[
+"business",
+4,
+10,
+"business",
+10
+],
+[
+"trump",
+5,
+16,
+"trump",
+16
+],
+[
+"apr",
+5,
+14,
+"apr",
+14
+],
+[
+"food",
+5,
+10,
+"food",
+10
+],
+[
+"trump",
+6,
+9,
+"trump",
+9
+],
+[
+"voices",
+6,
+9,
+"voices",
+9
+],
+[
+"press",
+6,
+8,
+"press",
+8
+],
+[
+"politics",
+7,
+23,
+"politics",
+23
+],
+[
+"trump",
+7,
+22,
+"trump",
+22
+],
+[
+"entertainment",
+7,
+19,
+"entertainment",
+19
+],
+[
+"ago",
+8,
+20,
+"ago",
+20
+],
+[
+"china",
+8,
+13,
+"china",
+13
+],
+[
+"may",
+8,
+11,
+"may",
+11
+],
+[
+"share",
+9,
+185,
+"share",
+185
+],
+[
+"bookmarkborder",
+9,
+184,
+"bookmarkborder",
+184
+],
+[
+"yesterday",
+9,
+141,
+"yesterday",
+141
+],
+[
+"trump",
+10,
+32,
+"trump",
+32
+],
+[
+"president",
+10,
+18,
+"president",
+18
+],
+[
+"china",
+10,
+16,
+"china",
+16
+] 
+];
+data.addColumn('string','wordName');
+data.addColumn('number','id');
+data.addColumn('number','frequency');
+data.addColumn('string','wordName.1');
+data.addColumn('number','frequency.1');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartBubbleChartID123c15d34716() {
+var data = gvisDataBubbleChartID123c15d34716();
+var options = {};
+options["hAxis"] = {minValue:1, maxValue:11, title:"Websites"};
+options["vAxis"] = {minValue:0, maxValue:100, title:"Frequency"};
+
+
+    var chart = new google.visualization.BubbleChart(
+    document.getElementById('BubbleChartID123c15d34716')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartBubbleChartID123c15d34716);
+})();
+function displayChartBubbleChartID123c15d34716() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="./BubbleChartID123c15d34716_files/jsapi"></script>
+ 
+<!-- divChart -->
+  
+<div id="BubbleChartID123c15d34716" style="width: 500; height: automatic;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 1520px; height: 200px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="1520" height="200" aria-label="A chart." style="overflow: hidden;"><defs id="defs"><clippath id="_ABSTRACT_RENDERER_ID_0"><rect x="138" y="38" width="1244" height="124"></rect></clippath></defs><rect x="0" y="0" width="1520" height="200" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="1397" y="38" width="108" height="124" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="1397" y="38" width="108" height="15" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="1418" y="50.75" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#222222">journal</text></g><rect x="1397" y="38" width="15" height="15" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="1397" y="62" width="108" height="15" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="1418" y="74.75" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#222222">trump</text></g><rect x="1397" y="62" width="15" height="15" stroke="none" stroke-width="0" fill="#dc3912"></rect></g><g><rect x="1397" y="86" width="108" height="15" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="1418" y="98.75" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#222222">china</text></g><rect x="1397" y="86" width="15" height="15" stroke="none" stroke-width="0" fill="#ff9900"></rect></g><g><rect x="1397" y="110" width="108" height="15" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="1418" y="122.75" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#222222">file</text></g><rect x="1397" y="110" width="15" height="15" stroke="none" stroke-width="0" fill="#109618"></rect></g><path d="M1412,162L1405,147L1397,162Z" stroke="none" stroke-width="0" fill="#cccccc"></path><g><text text-anchor="middle" x="1428.5" y="159.75" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#0011cc">1/6</text></g><path d="M1445,147L1460,147L1453,162Z" stroke="none" stroke-width="0" fill="#0011cc"></path></g><g><rect x="138" y="38" width="1244" height="124" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(http://127.0.0.1:25588/custom/googleVis/BubbleChartID123c15d34716.html#_ABSTRACT_RENDERER_ID_0)"><g><rect x="138" y="38" width="1" height="124" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="449" y="38" width="1" height="124" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="760" y="38" width="1" height="124" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="1070" y="38" width="1" height="124" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="1381" y="38" width="1" height="124" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="138" y="161" width="1244" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="138" y="130" width="1244" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="138" y="100" width="1244" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="138" y="69" width="1244" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="138" y="38" width="1244" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect></g><g><rect x="138" y="38" width="1" height="124" stroke="none" stroke-width="0" fill="#333333"></rect><rect x="138" y="161" width="1244" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g><g><circle cx="1070.75" cy="47.72500000000001" r="30" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#3b3eac"></circle><g><text text-anchor="middle" x="1070.75" y="52.97500000000001" font-family="Arial" font-size="15" stroke="#ffffff" stroke-width="3" fill="#000000" aria-hidden="true">share</text><text text-anchor="middle" x="1070.75" y="52.97500000000001" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#000000">share</text></g><circle cx="1070.75" cy="48.34" r="30" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#b77322"></circle><g><text text-anchor="middle" x="1070.75" y="53.59" font-family="Arial" font-size="15" stroke="#ffffff" stroke-width="3" fill="#000000" aria-hidden="true">bookmarkborder</text><text text-anchor="middle" x="1070.75" y="53.59" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#000000">bookmarkborder</text></g><circle cx="1070.75" cy="74.785" r="26" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#16d620"></circle><g><text text-anchor="middle" x="1070.75" y="80.035" font-family="Arial" font-size="15" stroke="#ffffff" stroke-width="3" fill="#000000" aria-hidden="true">yesterday</text><text text-anchor="middle" x="1070.75" y="80.035" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#000000">yesterday</text></g><circle cx="1174.3333333333333" cy="141.82" r="12" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#dc3912"></circle><g><text text-anchor="middle" x="1174.3333333333333" y="147.07" font-family="Arial" font-size="15" stroke="#ffffff" stroke-width="3" fill="#000000" aria-hidden="true">trump</text><text text-anchor="middle" x="1174.3333333333333" y="147.07" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#000000">trump</text></g><circle cx="552.8333333333333" cy="148.585" r="10" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#316395"></circle><g><text text-anchor="middle" x="552.8333333333333" y="153.835" font-family="Arial" font-size="15" stroke="#ffffff" stroke-width="3" fill="#000000" aria-hidden="true">ago</text><text text-anchor="middle" x="552.8333333333333" y="153.835" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#000000">ago</text></g><circle cx="863.5833333333333" cy="147.355" r="10" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#651067"></circle><g><text text-anchor="middle" x="863.5833333333333" y="152.605" font-family="Arial" font-size="15" stroke="#ffffff" stroke-width="3" fill="#000000" aria-hidden="true">politics</text><text text-anchor="middle" x="863.5833333333333" y="152.605" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#000000">politics</text></g><circle cx="863.5833333333333" cy="147.97" r="10" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#dc3912"></circle><g><text text-anchor="middle" x="863.5833333333333" y="153.22" font-family="Arial" font-size="15" stroke="#ffffff" stroke-width="3" fill="#000000" aria-hidden="true">trump</text><text text-anchor="middle" x="863.5833333333333" y="153.22" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#000000">trump</text></g><circle cx="863.5833333333333" cy="149.815" r="9" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#329262"></circle><circle cx="967.1666666666666" cy="149.2" r="9" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#316395"></circle><circle cx="1174.3333333333333" cy="150.43" r="9" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#b91383"></circle><circle cx="345.66666666666663" cy="152.275" r="8" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#109618"></circle><circle cx="552.8333333333333" cy="151.66" r="8" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#994499"></circle><circle cx="656.4166666666666" cy="151.66" r="8" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#dc3912"></circle><circle cx="656.4166666666666" cy="152.89" r="8" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#aaaa11"></circle><circle cx="1174.3333333333333" cy="151.66" r="8" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#ff9900"></circle><circle cx="242.08333333333331" cy="153.505" r="7" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#3366cc"></circle><circle cx="242.08333333333331" cy="154.12" r="7" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#dc3912"></circle><circle cx="242.08333333333331" cy="154.735" r="7" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#ff9900"></circle><circle cx="345.66666666666663" cy="154.12" r="7" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#990099"></circle><circle cx="345.66666666666663" cy="154.735" r="7" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#0099c6"></circle><circle cx="967.1666666666666" cy="153.505" r="7" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#ff9900"></circle><circle cx="967.1666666666666" cy="154.735" r="7" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#5574a6"></circle><circle cx="449.25" cy="155.965" r="6" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#dd4477"></circle><circle cx="552.8333333333333" cy="155.35" r="6" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#22aa99"></circle><circle cx="656.4166666666666" cy="155.35" r="6" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#6633cc"></circle><circle cx="760" cy="155.965" r="6" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#dc3912"></circle><circle cx="760" cy="155.965" r="6" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#e67300"></circle><circle cx="449.25" cy="156.58" r="5" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#66aa00"></circle><circle cx="449.25" cy="157.195" r="5" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#b82e2e"></circle><circle cx="760" cy="156.58" r="5" stroke="#cccccc" stroke-width="1" fill-opacity="0.8" fill="#8b0707"></circle></g></g><g></g><g><g><text text-anchor="middle" x="138.5" y="177.41666666666666" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="middle" x="449.25" y="177.41666666666666" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">3</text></g><g><text text-anchor="middle" x="760" y="177.41666666666666" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">6</text></g><g><text text-anchor="middle" x="1070.75" y="177.41666666666666" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">9</text></g><g><text text-anchor="middle" x="1381.5" y="177.41666666666666" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">12</text></g><g><text text-anchor="end" x="123" y="166.75" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="123" y="136" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">50</text></g><g><text text-anchor="end" x="123" y="105.25" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">100</text></g><g><text text-anchor="end" x="123" y="74.5" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">150</text></g><g><text text-anchor="end" x="123" y="43.75" font-family="Arial" font-size="15" stroke="none" stroke-width="0" fill="#444444">200</text></g></g></g><g><g><text text-anchor="middle" x="760" y="195.08333333333331" font-family="Arial" font-size="15" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Websites</text><rect x="138" y="182.33333333333331" width="1244" height="15" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="54.25" y="100" font-family="Arial" font-size="15" font-style="italic" transform="rotate(-90 54.25 100)" stroke="none" stroke-width="0" fill="#222222">Frequency</text><path d="M41.5,162L41.50000000000001,38L56.50000000000001,38L56.5,162Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>wordName</th><th>id</th><th>frequency</th><th>wordName.1</th><th>frequency.1</th></tr></thead><tbody><tr><td>journal</td><td>1</td><td>13</td><td>journal</td><td>13</td></tr><tr><td>trump</td><td>1</td><td>12</td><td>trump</td><td>12</td></tr><tr><td>china</td><td>1</td><td>11</td><td>china</td><td>11</td></tr><tr><td>file</td><td>2</td><td>15</td><td>file</td><td>15</td></tr><tr><td>getty</td><td>2</td><td>12</td><td>getty</td><td>12</td></tr><tr><td>health</td><td>2</td><td>11</td><td>health</td><td>11</td></tr><tr><td>usa</td><td>3</td><td>9</td><td>usa</td><td>9</td></tr><tr><td>opinion</td><td>3</td><td>8</td><td>opinion</td><td>8</td></tr><tr><td>met</td><td>3</td><td>7</td><td>met</td><td>7</td></tr><tr><td>ago</td><td>4</td><td>21</td><td>ago</td><td>21</td></tr><tr><td>world</td><td>4</td><td>16</td><td>world</td><td>16</td></tr><tr><td>business</td><td>4</td><td>10</td><td>business</td><td>10</td></tr><tr><td>trump</td><td>5</td><td>16</td><td>trump</td><td>16</td></tr><tr><td>apr</td><td>5</td><td>14</td><td>apr</td><td>14</td></tr><tr><td>food</td><td>5</td><td>10</td><td>food</td><td>10</td></tr><tr><td>trump</td><td>6</td><td>9</td><td>trump</td><td>9</td></tr><tr><td>voices</td><td>6</td><td>9</td><td>voices</td><td>9</td></tr><tr><td>press</td><td>6</td><td>8</td><td>press</td><td>8</td></tr><tr><td>politics</td><td>7</td><td>23</td><td>politics</td><td>23</td></tr><tr><td>trump</td><td>7</td><td>22</td><td>trump</td><td>22</td></tr><tr><td>entertainment</td><td>7</td><td>19</td><td>entertainment</td><td>19</td></tr><tr><td>ago</td><td>8</td><td>20</td><td>ago</td><td>20</td></tr><tr><td>china</td><td>8</td><td>13</td><td>china</td><td>13</td></tr><tr><td>may</td><td>8</td><td>11</td><td>may</td><td>11</td></tr><tr><td>share</td><td>9</td><td>185</td><td>share</td><td>185</td></tr><tr><td>bookmarkborder</td><td>9</td><td>184</td><td>bookmarkborder</td><td>184</td></tr><tr><td>yesterday</td><td>9</td><td>141</td><td>yesterday</td><td>141</td></tr><tr><td>trump</td><td>10</td><td>32</td><td>trump</td><td>32</td></tr><tr><td>president</td><td>10</td><td>18</td><td>president</td><td>18</td></tr><tr><td>china</td><td>10</td><td>16</td><td>china</td><td>16</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 210px; left: 1530px; white-space: nowrap; font-family: Arial; font-size: 15px;">0/0</div><div></div></div></div>
+ <div><span>Data: FFT • Chart ID: <a href="http://127.0.0.1:25588/custom/googleVis/Chart_BubbleChartID123c15d34716.html">BubbleChartID123c15d34716</a> • <a href="https://github.com/mages/googleVis">googleVis-0.6.3</a></span><br> 
+<!-- htmlFooter -->
+<span> 
+  R version 3.5.1 (2018-07-02) 
+  • <a href="https://developers.google.com/terms/">Google Terms of Use</a> • <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/bubblechart">Documentation and Data Policy</a>
+</span></div>
+
+
+</body></html>
