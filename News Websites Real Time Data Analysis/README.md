@@ -8,4 +8,6 @@ Run PPT
 
 ```
 OUTPUT image is a minute peek of the kind of work in project
+
+Click "Download" to view whole image.
 ```
